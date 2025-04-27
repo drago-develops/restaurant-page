@@ -16,6 +16,7 @@ body{
   flex-flow: column;
   color: blanchedalmond;
   font-family: 'CustomFont', sans-serif;
+
 }
 
 h1.RestName{
@@ -103,4 +104,25 @@ button:hover {
   height: 300px;
   width: 300px;
   border-radius: 15px;
+}
+
+footer{
+  width: 100vw;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}
+
+footer img{
+  height: 28px;
+  width: 28px;
+  filter: invert(100%) sepia(57%) saturate(1456%) hue-rotate(302deg) brightness(104%) contrast(101%);
+}
+
+footer a{
+  text-decoration: none;
+  color: blanchedalmond;
+  padding: 0px 15px 0px 15px;
 }
